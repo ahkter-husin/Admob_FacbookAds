@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+
+        android:id="@+id/add_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <com.google.android.gms.ads.AdView
+
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/admobBanner_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/admobBanner_id"
+            android:layerType="software" />
+
+    </RelativeLayout>
+
+    <Button
+
+        android:layout_marginTop="150dp"
+        android:id="@+id/admob_interstitial"
+        android:text="admob Interstitial"
+        android:onClick="onClick"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+
+        android:onClick="onClick"
+        android:layout_marginTop="20dp"
+        android:id="@+id/fb_interstitial"
+        android:layout_below="@+id/admob_interstitial"
+        android:text="facbook Interstitial"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/fb_banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        />
+
+
+</RelativeLayout>

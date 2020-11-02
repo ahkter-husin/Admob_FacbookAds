@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Admob&amp;FacbookAds</string>
+    
+    // admob Ads Ids
+    <string name="admobApp_id"> ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admobBanner_id"> ca-app-pub-3940256099942544/6300978111 </string>
+    <string name="admobInterstitial_id"> ca-app-pub-3940256099942544/1033173712 </string>
+    <string name="admobNative_id"> ca-app-pub-3940256099942544/2247696110 </string>
+
+    // facebook Ads Ids
+    <string name="facebookApp_id"> 3411561598894402 </string>
+    <string name="fbBanner_id"> </string>
+    <string name="fbInterstitial_id"> </string>
+    <string name="fbNative_id"> </string>
+
+    // for admob native ad
+    <string name="ad_attribution">Ad</string>
+
+</resources>
